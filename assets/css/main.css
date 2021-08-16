@@ -3792,10 +3792,7 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-		#main > footer {
-			text-align: center;
-		}
-
+	
 		#main > .post {
 			padding: 8rem 8rem 6rem 8rem ;
 		}
@@ -4219,6 +4216,18 @@ input, select, textarea {
 			flex-shrink: 1; */
 			padding: 4rem 4rem 2rem 4rem ;
 			border-left: solid 2px #e2e2e2;
+			display:flex;
+			flex-direction: column;
+		}
+
+		.footer{
+			display:flex;
+			flex-direction: column;
+		}
+
+		.alt{
+			display:flex;
+			flex-direction: column;
 		}
 
 			#footer > section:first-child {
