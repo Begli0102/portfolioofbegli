@@ -3365,6 +3365,7 @@ input, select, textarea {
 			border: #717981;
 			display: flex;
 			justify-content: center;
+		
 			/* align-items: center;  */
 			/* border-color: #030507; */
 			flex-direction: row;
@@ -3374,7 +3375,13 @@ input, select, textarea {
 			border-radius: 10px;
 			box-shadow: inset 0 0 0 2px #333435;
 			text-transform: uppercase;
-		}
+
+			}
+
+
+			.about-me{
+       text-align: center;
+			}
 
 		#intro hr {
 			border-bottom-color: #ffffff;
