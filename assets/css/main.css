@@ -181,7 +181,7 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
-		margin: 0 0 2rem 0;
+		/* margin: 0 0 2rem 0; */
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -190,7 +190,7 @@ input, select, textarea {
 		line-height: 1.5;
 		letter-spacing: 0.075em;
 		/* text-transform: uppercase; */
-		margin: 0 0 1rem 0;
+		/* margin: 0 0 1rem 0; */
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -213,7 +213,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1.25rem;
-		margin: 0 0 1.5rem 0;
+		/* margin: 0 0 1.5rem 0; */
 	}
 
 	h4 {
@@ -2959,8 +2959,21 @@ input, select, textarea {
 
 			header.major > p {
 				margin-top: 0;
-				text-align: center;
+				/* text-align: center; */
 			}
+
+			.logo-container{
+				
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				margin-top: 20px;
+			}
+		.logos{
+			max-height: 50px;
+			cursor: pointer;
+			background-color: none;
+		}
 
 			header.major > .date {
 				font-size: 1rem;
@@ -3355,11 +3368,12 @@ input, select, textarea {
 			/* align-items: center;  */
 			/* border-color: #030507; */
 			flex-direction: row;
-			background-color: #e8e9eb;
-			width:200px;
+			/* background-color: #e8e9eb;
+			width:200px; */
 			margin: 50px 35%;
 			border-radius: 10px;
 			box-shadow: inset 0 0 0 2px #333435;
+			text-transform: uppercase;
 		}
 
 		#intro hr {
@@ -4202,7 +4216,7 @@ input, select, textarea {
 			color: #e2e2e2;
 		}
 
-		#footer > section {
+		#footer {
 			/* -moz-flex-basis: 50%;
 			-webkit-flex-basis: 50%;
 			-ms-flex-basis: 50%;
@@ -4215,7 +4229,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1; */
-			padding: 4rem 4rem 2rem 4rem ;
+			padding: 4rem 4rem 2rem 4rem ; 
 			border-left: solid 2px #e2e2e2;
 			display:flex;
 			flex-direction: column;
